@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @font-face {
+    font-family: 'GoldRush';
+    src:url('./assets/fonts/GoldRush.ttf.woff').format('woff'),
+        url('./assets/fonts/GoldRush.ttf.svg#GoldRush').format('svg'),
+        url('./assets/fonts/GoldRush.ttf.eot'),
+        url('./assets/fonts/GoldRush.ttf.eot?#iefix').format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
